@@ -1,18 +1,27 @@
 {
-    "name": "platypus-coders-elixir-pack",
-    "displayName": "platypus-coders-elixir-pack",
-    "description": "A collection of VSCode extensions to use.",
-    "publisher": "platypus-coders",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.61.0"
-    },
-    "categories": [
-        "Extension Packs"
-    ],
-    "extensionPack": [ 
-        "pantajoe.vscode-elixir-credo",
-        "jakebecker.elixir-ls",
-        "benvp.vscode-hex-pm-intellisense"
-    ]
+  "name": "platypus-coders-elixir-pack",
+  "displayName": "platypus-coders-elixir-pack",
+  "description": "A collection of VSCode extensions to use.",
+  "publisher": "platypus-coders",
+  "version": "0.0.2",
+  "license": "SEE LICENSE IN LICENSE",
+  "icon": "images/icon.jpg",
+  "engines": {
+    "vscode": "^1.61.0"
+  },
+  "keywords": [
+    "Elixir"
+  ],
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [ 
+    "pantajoe.vscode-elixir-credo",
+    "jakebecker.elixir-ls",
+    "benvp.vscode-hex-pm-intellisense"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/platypuscoders/elixir-pack"
+  }
 }
