@@ -3,7 +3,7 @@
   "displayName": "platypus-coders-elixir-pack",
   "description": "A collection of VSCode extensions to use.",
   "publisher": "platypus-coders",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "SEE LICENSE IN LICENSE",
   "icon": "images/icon.jpg",
   "engines": {
@@ -16,9 +16,17 @@
     "Extension Packs"
   ],
   "extensionPack": [ 
-    "pantajoe.vscode-elixir-credo",
-    "jakebecker.elixir-ls",
-    "benvp.vscode-hex-pm-intellisense"
+    "animus-coop.vscode-elixir-mix-formatter",
+    "royalmist.vscode-eex-format",
+    "benvp.vscode-hex-pm-intellisense",
+    "phoenixframework.phoenix",
+    "emeraldwalk.runonsave",
+    "swellaby.workspace-config-plus",
+    "sztheory.hex-lens",
+    "bradlc.vscode-tailwindcss",
+    "lexical-lsp.lexical",
+    "florinpatrascu.vscode-elixir-snippets",
+    "pantajoe.vscode-elixir-credo"
   ],
   "repository": {
     "type": "git",
